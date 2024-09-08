@@ -18825,18 +18825,27 @@ body.swal2-toast-column .swal2-toast .swal2-validation-message {
   font-size: 1em;
 }
 
+.hstack-menu:hover{
+  background-color: #3085d6;
+  transform: scale(1.1);
+}
+
+.hstack-menu h4{
+  width: 100%;
+  font-size: 24px;
+}
 
 .logo{
-    width: 30%;
-    height: 30%;
+    width: 80%;
+    height: 80%;
     animation: logo-spin infinite 20s linear;
 }
-@keyframes logo-spin {
+/* @keyframes logo-spin {
     from {
       transform: rotate(0deg);
     }
     to {
       transform: rotate(500deg);
     }
-  }
+  } */
 /*# sourceMappingURL=vendors.min.css.map */
